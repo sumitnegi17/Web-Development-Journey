@@ -24,6 +24,9 @@ Being a Mechatronics student I need to make IOT based projects and sometimes I j
 - [ ] SQL
 - [ ] MongoDB
 - [ ] Mongoose
+- [ ] RESTful API
+- [ ] Authentication and Security
+- [ ] React.js
 
 # List of resources/websites:
 1. [Dev Docs](https://devdocs.io)
