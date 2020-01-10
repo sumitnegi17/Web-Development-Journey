@@ -24,3 +24,8 @@ Being a Mechatronics student I need to make IOT based projects and sometimes I j
 - [ ] SQL
 - [ ] MongoDB
 - [ ] Mongoose
+
+# List of resources/websites:
+1. [Dev Docs](https://devdocs.io)
+2. [MDN](https://developer.mozilla.org/en-US/)
+3. 
