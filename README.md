@@ -32,4 +32,4 @@ Being a Mechatronics student I need to make IOT based projects and sometimes I j
 1. [Dev Docs](https://devdocs.io)
 2. [MDN](https://developer.mozilla.org/en-US/)
 3. 
-# Journey/notes will be available in the [wiki](https://github.com/AnshumanFauzdar/Web-Development-Journey/wiki/Let-the-journey-begin!)
+# Journey/notes will be available in the [wiki](https://github.com/AnshumanFauzdar/Web-Development-Journey/wiki)
