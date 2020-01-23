@@ -8,7 +8,7 @@ Being a Mechatronics student I need to make IOT based projects and sometimes I j
 # Language/Skills to be learnt:
 - [x] HTML
 - [x] CSS
-- [ ] BootStrap
+- [x] BootStrap
 - [ ] Javascript
 - [ ] DOM
 - [ ] Advance JS
