@@ -31,5 +31,5 @@ Being a Mechatronics student I need to make IOT based projects and sometimes I j
 # List of resources/websites:
 1. [Dev Docs](https://devdocs.io)
 2. [MDN](https://developer.mozilla.org/en-US/)
-3. 
+3. [W3School](https://www.w3schools.com)
 # Journey/notes will be available in the [wiki](https://github.com/AnshumanFauzdar/Web-Development-Journey/wiki)
