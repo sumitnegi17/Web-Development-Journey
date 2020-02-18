@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Form Fillup</title>
+<script type="text/javascript">
+
+// Border changes to red when left empty!
+
+function borchange1(txt)
+{
+  txt.style.borderColor = "red";
+}
+function borchange(txt1)
+{
+  txt1.style.borderColor = "green";
+}
+
+// To hide the 1st div
+
+function hid()
+{
+  document.getElementById("txt2").style.display = "none";
+  document.getElementById("txt3").style.display = "block";
+}
+
+</script>
+  </head>
+  <body>
+<div style="background-color:lightgray;width:100%;">
+<center><h1>Welcome to High School</h1></center>
+    </div>
+<div style="background-color:red;width:20%;float:left;height:60px;">
+  <h3><center>Step 1</center><h3>
+</div>
+<div style="background-color:gray;width:20%;float:left;height:60px;">
+  <h3><center>❱❱❱❱❱</center><h3>
+</div>
+<div style="background-color:red;width:20%;float:left;height:60px;">
+  <h3><center>Step 2</center><h3>
+</div>
+<div style="background-color:gray;width:20%;float:left;height:60px;">
+  <h3><center>❱❱❱❱❱</center><h3>
+</div>
+<div style="background-color:red;width:20%;float:left;height:60px;">
+  <h3><center>Step 3</center><h3>
+</div>
+
+<div id="txt2" style="border-style: solid;border-radius: 5px; margin-top:100px; height:500px; padding:50px;">
+  <table>
+  <tr>
+    <th><h3>Name :</h3></th>
+    <th><input placeholder="Full Name" type="text" onBlur="borchange(this);" onFocus="borchange1(this);"></th>
+  </tr>
+  <tr>
+    <th><h3>Age :</h3></th>
+    <th><input placeholder="In numbers" type="text" onBlur="borchange(this);" onFocus="borchange1(this);"></th>
+  </tr>
+  <tr>
+    <th><h3>Gender :</h3></th>
+    <th>MALE<input type="radio">FEMALE<input type="radio"></th>
+  </tr>
+  <tr>
+    <th><h3>Father's Name :</h3></th>
+    <th><input type="text" onBlur="borchange(this);" onFocus="borchange1(this);"></th>
+  </tr>
+  <tr>
+    <th><h3>Mother's Name :</h3></th>
+    <th><input type="text" onBlur="borchange(this);" onFocus="borchange1(this);"></th>
+  </tr>
+  <tr>
+    <th><h3>Address: </h3></th>
+    <th><input type="text" onBlur="borchange(this);" onFocus="borchange1(this);"></th>
+  </tr>
+  <tr>
+    <th><h3>City :</h3></th>
+    <th><input type="text" onBlur="borchange(this);" onFocus="borchange1(this);"></th>
+  </tr>
+  <tr>
+    <th><h3>Pin Code:</h3></th>
+    <th><input type="text" onBlur="borchange(this);" onFocus="borchange1(this);"></th>
+    <th><input type="submit" value="submit" id="txt2" onClick="hid();"></th>
+  </tr>
+  </table>
+
+</div>
+<div id="txt3" style="display:none;border-style: solid;border-radius: 5px; margin-top:100px; height:500px; padding:10px;">
+<table border="1" style="width:100%;background-color:lightgray;">
+<caption><h2>X/Matriculate Details</h2></caption>
+  <tr>
+    <th>Standard</th>
+    <th>School Name</th>
+    <th>Board</th>
+    <th>Obtained CGPA</th>
+  </tr>
+  <tr>
+    <th>X</th>
+    <th><input type="text" onBlur="borchange(this);" onFocus="borchange1(this);"></th>
+    <th><input type="text" onBlur="borchange(this);" onFocus="borchange1(this);"></th>
+    <th><input type="text" onBlur="borchange(this);" onFocus="borchange1(this);"></th>
+  </tr>
+</table>
+<br>
+<table border="1" style="width:100%;background-color:lightgray;">
+<caption><h2>XIIth/Intermediate Details</h2></caption>
+  <tr>
+    <th>S.no</th>
+    <th>Subject</th>
+    <th>Total Marks</th>
+    <th>Obtained Marks</th>
+  </tr>
+  <tr>
+    <th>1.</th>
+    <th><input type="text" onBlur="borchange(this);" onFocus="borchange1(this);"></th>
+    <th><input type="text" onBlur="borchange(this);" onFocus="borchange1(this);"></th>
+    <th><input type="text" onBlur="borchange(this);" onFocus="borchange1(this);"></th>
+  </tr>
+  <tr>
+    <th>2.</th>
+    <th><input type="text" onBlur="borchange(this);" onFocus="borchange1(this);"></th>
+    <th><input type="text" onBlur="borchange(this);" onFocus="borchange1(this);"></th>
+    <th><input type="text" onBlur="borchange(this);" onFocus="borchange1(this);"></th>
+  </tr>
+  <tr>
+    <th>3.</th>
+    <th><input type="text" onBlur="borchange(this);" onFocus="borchange1(this);"></th>
+    <th><input type="text" onBlur="borchange(this);" onFocus="borchange1(this);"></th>
+    <th><input type="text" onBlur="borchange(this);" onFocus="borchange1(this);"></th>
+  </tr>
+  <tr>
+    <th>4.</th>
+    <th><input type="text" onBlur="borchange(this);" onFocus="borchange1(this);"></th>
+    <th><input type="text" onBlur="borchange(this);" onFocus="borchange1(this);"></th>
+    <th><input type="text" onBlur="borchange(this);" onFocus="borchange1(this);"></th>
+  </tr>
+  <tr>
+    <th>5.</th>
+    <th><input type="text" onBlur="borchange(this);" onFocus="borchange1(this);"></th>
+    <th><input type="text" onBlur="borchange(this);" onFocus="borchange1(this);"></th>
+    <th><input type="text" onBlur="borchange(this);" onFocus="borchange1(this);"></th>
+  </tr>
+  </table>
+<input type="button" style="border-radius:8px;margin-top:20px;" value="Add table"; >
+<input type="button" style="border-radius:8px;margin-top:20px;float:right;" value="Submit">
+</div>
+</body>
+</html>
